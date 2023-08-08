@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaMasterClass.AugustTwoThree", "AdaMasterClass.AugustTwoThree\AdaMasterClass.AugustTwoThree.csproj", "{BF8A9BBA-20C4-45ED-803E-404BFC62B022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaMasterClass.AugustTwoThree.Tests", "AdaMasterClass.AugustTwoThree.Tests\AdaMasterClass.AugustTwoThree.Tests.csproj", "{746F9D29-CDB4-465D-9224-7222F57141B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF8A9BBA-20C4-45ED-803E-404BFC62B022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8A9BBA-20C4-45ED-803E-404BFC62B022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8A9BBA-20C4-45ED-803E-404BFC62B022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8A9BBA-20C4-45ED-803E-404BFC62B022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746F9D29-CDB4-465D-9224-7222F57141B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746F9D29-CDB4-465D-9224-7222F57141B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746F9D29-CDB4-465D-9224-7222F57141B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746F9D29-CDB4-465D-9224-7222F57141B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE4B3E2C-0778-45CB-80B0-42E7AC6D6CA7}
+	EndGlobalSection
+EndGlobal

@@ -2,11 +2,11 @@
 {
     internal static class TennisScore
     {
+        private const string LoveLove = "love - love";
 
-        public static object GetScore()
+        public static string GetScore()
         {
-            return "love - love";
-            throw new NotImplementedException();
+            return LoveLove;
         }
     }
 }

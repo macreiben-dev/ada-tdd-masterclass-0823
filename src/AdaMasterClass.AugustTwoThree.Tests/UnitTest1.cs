@@ -5,12 +5,26 @@ namespace AdaMasterClass.AugustTwoThree.Tests
     public class UnitTest1
     {
         [Fact]
-        public void Test_starting_at_zero()
+        public void Given_game_is_starting_Then_score_is_lovelove()
         {
             // ARRANGE
             var score = "love - love";
 
             // ACT
+            var actual = TennisScore.GetScore();
+
+            // ASSERT
+            Check.That(actual).IsEqualTo(score);
+        }
+
+        [Fact]
+        public void Given_firstPoint_is_played_Then_score_is_loveFifteen()
+        {
+            // ARRANGE
+            var score = "fifteen - love";
+
+            // ACT
+            TennisScore.PlayerServingScore();
             var actual = TennisScore.GetScore();
 
             // ASSERT

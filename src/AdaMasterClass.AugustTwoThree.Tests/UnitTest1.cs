@@ -4,6 +4,12 @@ namespace AdaMasterClass.AugustTwoThree.Tests
 {
     public class UnitTest1
     {
+        /**
+         * 
+         * The checked string:
+	        ["love- love"]
+        */
+
         [Fact]
         public void Given_game_is_starting_Then_score_is_lovelove()
         {

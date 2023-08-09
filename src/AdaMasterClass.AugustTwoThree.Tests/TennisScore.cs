@@ -2,14 +2,16 @@
 {
     internal static class TennisScore
     {
-        private const string LoveLove = "love - love";
+        private static string LoveLove = $"{Love} - {Love}";
         private static int scorePlayerServing;
+
+        private const string Love = "love";
 
         public static string GetScore()
         {
             if(scorePlayerServing == 1)
             {
-                return "fifteen - love";
+                return $"fifteen - {Love}";
             }
             return LoveLove;
         }

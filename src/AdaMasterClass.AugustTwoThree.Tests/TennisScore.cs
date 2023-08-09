@@ -6,12 +6,13 @@
         private static int scorePlayerServing;
 
         private const string Love = "love";
+        private const string Fifteen = "fifteen";
 
         public static string GetScore()
         {
             if(scorePlayerServing == 1)
             {
-                return $"fifteen - {Love}";
+                return $"{Fifteen} - {Love}";
             }
             return LoveLove;
         }

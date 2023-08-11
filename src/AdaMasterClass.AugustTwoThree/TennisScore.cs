@@ -1,6 +1,6 @@
 ﻿namespace AdaMasterClass.AugustTwoThree.Tests
 {
-    internal static class TennisScore
+    public static class TennisScore
     {
         private static string LoveLove = $"{Love} - {Love}";
         private static int scorePlayerServing;
@@ -12,12 +12,17 @@
         {
             if(scorePlayerServing == 1)
             {
-                return $"{Fifteen} - {Love}";
+                return FormatScore(Fifteen, Love);
             }
-            return LoveLove;
+            return FormatScore(Love, Love);
         }
 
-        internal static void PlayerServingScore()
+        private static string FormatScore(string playerServing, string playerReceiving)
+        {
+            return $"{playerServing} - {playerReceiving}";
+        }
+
+        public static void PlayerServingScore()
         {
             scorePlayerServing = 1;
         }

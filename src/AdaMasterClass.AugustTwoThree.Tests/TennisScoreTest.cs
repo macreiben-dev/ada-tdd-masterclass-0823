@@ -2,7 +2,7 @@ using NFluent;
 
 namespace AdaMasterClass.AugustTwoThree.Tests
 {
-    public class UnitTest1
+    public class TennisScoreTest
     {
         /**
          * 
